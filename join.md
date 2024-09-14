@@ -4,9 +4,13 @@ permalink: /join/
 layout: default
 ---
 
-If you post about same topics we do, we'd love for you to join our webring!
+If you miss Cohost just as much as everyone else, please
 
-To join the webring, please <a class="button" href="https://github.com/{{ site.repository }}/issues/new/choose">open a request</a> to add a new site through GitHub issues.
+To join the webring, please <a class="button" href="https://github.com/{{ site.repository }}/issues/new/choose">open a request</a> to add a new site through GitHub issues. Or you can [email fluffy](mailto:fluffy%40beesbuzz%2ebiz?subject=Cohost+webring) with the following information:
+
+* Your name
+* Your website
+* Your RSS/Atom feed, if any!
 
 After you’re approved, you’ll need to add the webring code to your website:
 
