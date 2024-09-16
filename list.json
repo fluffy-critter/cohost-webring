@@ -5,6 +5,12 @@
       "url": "https://beesbuzz.biz/",
       "rss": "https://beesbuzz.biz/feed",
       "avatar": "fluffy.jpg"
+    },
+    {
+      "name": "viv",
+      "url": "https://wp.vivl.im",
+      "rss": "https://wp.vivl.im/feed",
+      "avatar": "viv.jpg"
     }
   ]
 }
