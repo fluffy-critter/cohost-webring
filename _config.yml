@@ -34,7 +34,7 @@ theme: minima
 
 # Build settings
 # plugins:
-#   -
+#   - jekyll-thumbnail-img
 
 feed:
 #  path: /feeds.opml
