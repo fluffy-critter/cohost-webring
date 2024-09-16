@@ -3,7 +3,8 @@
     {
       "name": "fluffy",
       "url": "https://beesbuzz.biz/",
-      "rss": "https://beesbuzz.biz/feed"
+      "rss": "https://beesbuzz.biz/feed",
+      "avatar": "fluffy.jpg"
     }
   ]
 }

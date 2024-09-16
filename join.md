@@ -9,6 +9,7 @@ If you miss Cohost just as much as everyone else, please <a class="button" href=
 * Your name
 * Your website
 * Your RSS/Atom feed, if any!
+* An avatar icon/pfp (not currently supported but I will add that in at some point)
 
 After you’re approved, you’ll need to add the webring code to your website:
 
