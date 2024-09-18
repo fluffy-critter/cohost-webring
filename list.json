@@ -11,6 +11,11 @@
       "url": "https://wp.vivl.im",
       "rss": "https://wp.vivl.im/feed",
       "avatar": "viv.jpg"
+    },
+    {
+      "name": "Sarksus",
+      "url": "https://blog.acritarch.net/",
+      "rss": "https://blog.acritarch.net/atom.xml"
     }
   ]
 }
