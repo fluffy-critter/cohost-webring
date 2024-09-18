@@ -16,6 +16,23 @@
       "name": "Sarksus",
       "url": "https://blog.acritarch.net/",
       "rss": "https://blog.acritarch.net/atom.xml"
+    },
+    {
+      "name": "Noah",
+      "url": "https://noahbogart.com/",
+      "rss": "https://noahbogart.com/feed.xml"
+    },
+    {
+      "name": "Tenna Lotor",
+      "url": "https://tenna.zip",
+      "rss": "https://tenna.zip/posts/index.xml",
+      "avatar": "tenna.png"
+    },
+    {
+      "name": "Obspogon",
+      "url": "https://obspogon.neocities.org/",
+      "rss": "https://obspogon.neocities.org/blog/feed.xml",
+      "avatar": "obspogon.jpg"
     }
   ]
 }
