@@ -4,7 +4,7 @@
   The HTML to put into your website to link to the webring should look something like this:
 </p>
 
-  <textarea class="code-snippet">
+  <textarea class="code-snippet" width=80 height=5>
     <a href="{{ '/redirect' | absolute_url }}?dir=prev&from=YOUR_URL_HERE">&larr;</a>
     |
     <a href="{{ '/' | absolute_url }}">{{ site.title }}</a>
@@ -29,11 +29,11 @@
   <p>
     Get your code:
   </p>
-  <textarea class="webring-html" id="webring-html"></textarea>
+  <textarea class="webring-html" id="webring-html"  width=80 height=5></textarea>
   <p>
     How it will appear:
   </p>
-  <div class="webring-generated" id="webring-generated"></div>
+  <div class="webring-generated" id="webring-generated"  width=80 height=5></div>
 </form>
 
 
@@ -42,14 +42,14 @@
   You can show the webring on your site by pasting the following html snippet wherever you want it to appear:
 </p>
 
-<textarea class="code-snippet"><script src="{{ 'webring.js' | absolute_url }}"></script>
+<textarea class="code-snippet"  width=80 height=5><script src="{{ 'webring.js' | absolute_url }}"></script>
 <script>showWebring(true);</script></textarea>
 
 <p>
   If you'd like to disable the default styles, you can use this snippet instead:
 </p>
 
-<textarea class="code-snippet"><script src="{{ 'webring.js' | absolute_url }}"></script>
+<textarea class="code-snippet"  width=80 height=5><script src="{{ 'webring.js' | absolute_url }}"></script>
 <script>showWebring();</script></textarea>
 
 <p>
