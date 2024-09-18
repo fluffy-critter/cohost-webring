@@ -1,22 +1,20 @@
-<h3>For Self-Hosted Websites</h3>
+<h3>Static HTML version (preferred)</h3>
+
 <p>
-  You can show the webring on your site by pasting the following html snippet wherever you want it to appear:
+  The HTML to put into your website to link to the webring should look something like this:
 </p>
 
-<textarea class="code-snippet"><script src="{{ 'webring.js' | absolute_url }}"></script>
-<script>showWebring(true);</script></textarea>
-
-<p>
-  If you'd like to disable the default styles, you can use this snippet instead:
+  <textarea class="code-snippet">
+    <a href="{{ '/redirect' | absolute_url }}?dir=prev&from=YOUR_URL_HERE">&larr;</a>
+    |
+    <a href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+    |
+    <a href="{{ '/redirect' | absolute_url }}?from=YOUR_URL_HERE">&rarr;</a>`
+  </textarea>
 </p>
 
-<textarea class="code-snippet"><script src="{{ 'webring.js' | absolute_url }}"></script>
-<script>showWebring();</script></textarea>
-
-<h3>For Hosted Blogs</h3>
-
 <p>
-  If you're using a service to host your blog which does not allow custom JavaScript, you can use a static version instead. Use the generator below to generate the html for your page:
+  If you're not sure how to put this together yourself, you can use the generator below to generate the html for your page:
 </p>
 
 <form id="webring-generator" class="webring-form">
@@ -38,6 +36,25 @@
   <div class="webring-generated" id="webring-generated"></div>
 </form>
 
+
+<h3>JavaScript option (easier, less recommended)</h3>
+<p>
+  You can show the webring on your site by pasting the following html snippet wherever you want it to appear:
+</p>
+
+<textarea class="code-snippet"><script src="{{ 'webring.js' | absolute_url }}"></script>
+<script>showWebring(true);</script></textarea>
+
+<p>
+  If you'd like to disable the default styles, you can use this snippet instead:
+</p>
+
+<textarea class="code-snippet"><script src="{{ 'webring.js' | absolute_url }}"></script>
+<script>showWebring();</script></textarea>
+
+<p>
+  Only do this if you trust this website to stick around forever. Which is to say, you probably shouldn't.
+</p>
 
 
 <script>
