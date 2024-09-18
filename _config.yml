@@ -24,7 +24,7 @@ title: Ex-Cohost Webring
 description: >- # this means to ignore newlines until "baseurl:"
   For friends of eggbug
 
-baseurl: /cohost-webring  # the subpath of your site, e.g. /blog
+baseurl: /  # the subpath of your site, e.g. /blog
 url: https://cwr.beesbuzz.biz
 repository: fluffy-critter/cohost-webring
 
