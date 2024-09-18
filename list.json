@@ -38,6 +38,12 @@
       "name": "Nat",
       "url": "https://mxsd.ca/",
       "avatar": "nat.png"
+    },
+    {
+      "name": "Emma Humphries",
+      "url": "https://emmas.site/",
+      "rss": "https://emmas.site/blog/atom.xml",
+      "avatar": "emma.png"
     }
   ]
 }
