@@ -44,6 +44,12 @@
       "url": "https://emmas.site/",
       "rss": "https://emmas.site/blog/atom.xml",
       "avatar": "emma.png"
+    },
+    {
+      "name": "Harmony Friends",
+      "url": "https://harmonyfriends.dreamwidth.org/",
+      "rss": "https://harmonyfriends.dreamwidth.org/data/atom",
+      "avatar": "harmonyfriends.png"
     }
   ]
 }
