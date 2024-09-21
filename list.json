@@ -50,6 +50,11 @@
       "url": "https://harmonyfriends.dreamwidth.org/",
       "rss": "https://harmonyfriends.dreamwidth.org/data/atom",
       "avatar": "harmonyfriends.png"
+    },
+    {
+      "name": "Kyle",
+      "url": "https://winged-horse.fyi/",
+      "avatar": "kyle.png"
     }
   ]
 }
