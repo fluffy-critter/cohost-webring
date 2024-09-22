@@ -24,14 +24,19 @@ function showWebring(useStyles) {
     doShow(req.response, elm);
   }
 
+  function normalize(hostname) {
+    return hostname.replace(/^www\./, '');
+  }
+
   function doShow(response, elm) {
     let sites = response.sites;
 
-    let from = new URL(window.location.href);
-    let current;
+    let from = new URL(window.location.href.replace(/^www\./, ''));
     for(let i = 0; i < sites.length; i++) {
       let test = new URL(sites[i].url);
-      if (from && (from.hostname == test.hostname && from.pathname == test.pathname)) {
+      console.log(test);
+      if (from && (normalize(from.hostname) == normalize(test.hostname) && from.pathname == test.pathname)) {
+        console.log("found", from, test);
         current = i;
         break;
       }

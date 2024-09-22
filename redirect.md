@@ -31,11 +31,17 @@ req.onload = function() {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
 
+  function normalize(hostname) {
+    return hostname.replace(/^www\./, '');
+  }
+
   let current;
   let from = new URL(urlParams.get('from'));
   for(let i = 0; i < sites.length; i++) {
     let test = new URL(sites[i].url);
-    if (from && (from.hostname == test.hostname && from.pathname == test.pathname)) {
+    console.log(test);
+    if (from && (normalize(from.hostname) == normalize(test.hostname) && from.pathname == test.pathname)) {
+      console.log("found", from, test);
       current = i;
       break;
     }
@@ -44,7 +50,7 @@ req.onload = function() {
   if(typeof current === 'undefined') {
     fail('not-in-list');
     current = -1;
-    // return;
+    console.log("not in list", from)
   }
 
 
