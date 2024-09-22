@@ -2,7 +2,7 @@
   "sites": [
     {
       "name": "fluffy",
-      "url": "https://beesbuzz.biz/",
+      "url": "https://beesbuzz.biz",
       "rss": "https://beesbuzz.biz/feed",
       "avatar": "fluffy.jpg"
     },
@@ -14,12 +14,12 @@
     },
     {
       "name": "Sarksus",
-      "url": "https://blog.acritarch.net/",
+      "url": "https://blog.acritarch.net",
       "rss": "https://blog.acritarch.net/atom.xml"
     },
     {
       "name": "Noah",
-      "url": "https://noahbogart.com/",
+      "url": "https://noahbogart.com",
       "rss": "https://noahbogart.com/feed.xml"
     },
     {
@@ -30,35 +30,35 @@
     },
     {
       "name": "Obspogon",
-      "url": "https://obspogon.neocities.org/",
+      "url": "https://obspogon.neocities.org",
       "rss": "https://obspogon.neocities.org/blog/feed.xml",
       "avatar": "obspogon.jpg"
     },
     {
       "name": "Nat",
-      "url": "https://mxsd.ca/",
+      "url": "https://mxsd.ca",
       "avatar": "nat.png"
     },
     {
       "name": "Emma Humphries",
-      "url": "https://emmas.site/",
+      "url": "https://emmas.site",
       "rss": "https://emmas.site/blog/atom.xml",
       "avatar": "emma.png"
     },
     {
       "name": "Harmony Friends",
-      "url": "https://harmonyfriends.dreamwidth.org/",
+      "url": "https://harmonyfriends.dreamwidth.org",
       "rss": "https://harmonyfriends.dreamwidth.org/data/atom",
       "avatar": "harmonyfriends.png"
     },
     {
       "name": "Kyle",
-      "url": "https://winged-horse.fyi/",
+      "url": "https://winged-horse.fyi",
       "avatar": "kyle.png"
     },
     {
       "name": "Bunnyhug",
-      "url": "https://bunnyhug.neocities.org/",
+      "url": "https://bunnyhug.neocities.org",
       "avatar": "bunnyhug.gif"
     }
   ]
