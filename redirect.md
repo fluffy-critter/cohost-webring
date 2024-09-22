@@ -32,9 +32,10 @@ req.onload = function() {
   const urlParams = new URLSearchParams(queryString);
 
   let current;
+  let from = new URL(urlParams.get('from'));
   for(let i = 0; i < sites.length; i++) {
-    let from = urlParams.get('from');
-    if(from && from.substr(0, sites[i].url.length) === sites[i].url) {
+    let test = new URL(sites[i].url);
+    if (from && (from.hostname == test.hostname && from.pathname == test.pathname)) {
       current = i;
       break;
     }

@@ -27,9 +27,11 @@ function showWebring(useStyles) {
   function doShow(response, elm) {
     let sites = response.sites;
 
+    let from = new URL(window.location.href);
     let current;
     for(let i = 0; i < sites.length; i++) {
-      if(window.location.href.substr(0, sites[i].url.length) === sites[i].url) {
+      let test = new URL(sites[i].url);
+      if (from && (from.hostname == test.hostname && from.pathname == test.pathname)) {
         current = i;
         break;
       }
