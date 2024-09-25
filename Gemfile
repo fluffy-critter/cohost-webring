@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.1.1"
+gem "jekyll", "~> 4.3.4"
 gem "webrick"
 gem "minima", github: "jekyll/minima"
 
