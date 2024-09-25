@@ -1,7 +1,7 @@
 ---
 title: Members
 permalink: /members/
-layout: default
+layout: base
 ---
 
 {% include members.html %}
