@@ -71,6 +71,12 @@
       "name": "mark",
       "url": "https://postgarf.nekoweb.org/",
       "rss": "https://postgarf.nekoweb.org/rss.xml"
+    },
+    {
+      "name": "boy3enemy",
+      "url": "https://boy3enemy.neocities.org/",
+      "rss": "https://boy3enemy.neocities.org/feed.txt",
+      "avatar": "boy3enemy.gif"
     }
   ]
 }
