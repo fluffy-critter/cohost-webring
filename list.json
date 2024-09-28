@@ -66,6 +66,11 @@
       "url": "https://b0gmyrtle.wordpress.com/",
       "rss": "https://b0gmyrtle.wordpress.com/feed/",
       "avatar": "xan.png"
+    },
+    {
+      "name": "mark",
+      "url": "https://postgarf.nekoweb.org/",
+      "rss": "https://postgarf.nekoweb.org/rss.xml"
     }
   ]
 }
