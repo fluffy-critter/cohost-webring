@@ -107,7 +107,7 @@ module Jekyll
 
       entries.each do |entry|
         # Clean up misconfigured urls
-        if (!entry.url.start_with?('http://') && !entry.url.start_with?('https://'))
+        if (entry.url && !entry.url.start_with?('http://') && !entry.url.start_with?('https://'))
           entry.url =  site['url'].chomp('/') + entry.url
         end
 
