@@ -86,9 +86,14 @@
     },
     {
       "name": "Sigmucron",
-      "url": "https://sigmucron.neocities.com/",
+      "url": "https://sigmucron.neocities.org/",
       "rss": "https://sigmucron.neocities.org/rss.xml",
       "avatar": "sigmu.png"
+    },
+    {
+      "name": "telnaga",
+      "url": "https://telnaga.neocities.org/",
+      "avatar": "telnaga.png"
     }
   ]
 }
