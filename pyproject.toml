@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cohost-webring"
+version = "0.1.0"
+description = ""
+authors = ["fluffy <fluffy@beesbuzz.biz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.3"
+flask-caching = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

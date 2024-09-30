@@ -82,7 +82,13 @@
       "name": "Kyrla",
       "url": "https://www.kyrla.xyz",
       "rss": "https://www.kyrla.xyz/kyrla-rss.xml",
-      "avarar": "kyrla.gif"
+      "avatar": "kyrla.gif"
+    },
+    {
+      "name": "Sigmucron",
+      "url": "https://sigmucron.neocities.com/",
+      "rss": "https://sigmucron.neocities.org/rss.xml",
+      "avatar": "sigmu.png"
     }
   ]
 }
