@@ -94,6 +94,12 @@
       "name": "telnaga",
       "url": "https://telnaga.neocities.org/",
       "avatar": "telnaga.png"
+    },
+    {
+      "name": "felidoptera",
+      "url": "https://chridd.nfshost.com/",
+      "rss": "https://chridd.nfshost.com/whats-new?as=atom&exp=31d&min=5",
+      "avatar": "felidoptera.png"
     }
   ]
 }
