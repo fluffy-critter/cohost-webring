@@ -43,7 +43,7 @@
       "name": "Emma Humphries",
       "url": "https://emmas.site",
       "rss": "https://emmas.site/blog/atom.xml",
-      "avatar": "emma.png"
+      "button": "emma.png"
     },
     {
       "name": "Harmony Friends",
@@ -59,7 +59,7 @@
     {
       "name": "Bunnyhug",
       "url": "https://bunnyhug.neocities.org",
-      "avatar": "bunnyhug.gif"
+      "button": "bunnyhug.gif"
     },
     {
       "name": "xan (rat-rot)",
@@ -82,7 +82,7 @@
       "name": "Kyrla",
       "url": "https://www.kyrla.xyz",
       "rss": "https://www.kyrla.xyz/kyrla-rss.xml",
-      "avatar": "kyrla.gif"
+      "button": "kyrla.gif"
     },
     {
       "name": "Sigmucron",
@@ -100,6 +100,13 @@
       "url": "https://chridd.nfshost.com/",
       "rss": "https://chridd.nfshost.com/whats-new?as=atom&exp=31d&min=5",
       "avatar": "felidoptera.png"
+    },
+    {
+      "name": "cynthia",
+      "url": "http://pixiecatsupreme.com/",
+      "rss": "http://pixiecatsupreme.com/Rss/BlogFeed",
+      "avatar": "cynthia.png",
+      "button": "cynthia.png"
     }
   ]
 }
