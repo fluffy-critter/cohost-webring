@@ -103,10 +103,10 @@
     },
     {
       "name": "PixieCatSupreme",
-      "url": "http://pixiecatsupreme.com/",
-      "rss": "http://pixiecatsupreme.com/Rss/BlogFeed",
-      "avatar": "cynthia.png",
-      "button": "cynthia.png"
+      "url": "https://pixiecatsupreme.com/",
+      "rss": "https://pixiecatsupreme.com/Rss/BlogFeed",
+      "avatar": "pixiecatsupreme.png",
+      "button": "pixiecatsupreme.png"
     }
   ]
 }
