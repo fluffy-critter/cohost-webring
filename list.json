@@ -35,11 +35,6 @@
       "avatar": "obspogon.jpg"
     },
     {
-      "name": "Nat",
-      "url": "https://mxsd.ca",
-      "avatar": "nat.png"
-    },
-    {
       "name": "Emma Humphries",
       "url": "https://emmas.site",
       "rss": "https://emmas.site/blog/atom.xml",
@@ -111,6 +106,14 @@
     {
       "name": "Mary",
       "url": "https://maryseph.neocities.org/"
+    }
+  ],
+  "disabled": [
+    {
+      "name": "Nat",
+      "url": "https://mxsd.ca",
+      "avatar": "nat.png",
+      "reason": "connection timeout"
     }
   ]
 }
