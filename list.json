@@ -104,16 +104,16 @@
       "button": "pixiecatsupreme.png"
     },
     {
+      "name": "Nat",
+      "url": "https://mxsd.nekoweb.org/",
+      "avatar": "nat.png",
+    },
+    {
       "name": "Mary",
-      "url": "https://maryseph.neocities.org/"
+      "url": "https://maryseph.neocities.org/",
+      "reason": "connection reset by peer"
     }
   ],
   "disabled": [
-    {
-      "name": "Nat",
-      "url": "https://mxsd.ca",
-      "avatar": "nat.png",
-      "reason": "connection timeout"
-    }
   ]
 }
